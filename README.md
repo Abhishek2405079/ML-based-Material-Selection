@@ -39,7 +39,6 @@ The goal is to reduce material selection time for engineers by surfacing pre-clu
 ## 🚀 How to Run
 
 ### Option 1 — Run on Google Colab (Recommended)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/)
 
 1. Upload `AISiemens_Code.ipynb` to Google Colab
 2. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/purushottamnawale/materials) and upload `Data.csv` when prompted
@@ -49,7 +48,7 @@ The goal is to reduce material selection time for engineers by surfacing pre-clu
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/ML-based-Material-Selection.git
+git clone https://github.com/Abhishek2405079/ML-based-Material-Selection.git
 cd ML-based-Material-Selection
 
 # Install dependencies
@@ -117,10 +116,10 @@ Outputs are also saved to `Cluster_Summary.csv` for further analysis.
 ```
 ML-based-Material-Selection/
 ├── ML-based Material Selection.py   ← Main notebook
-├── requirements.txt        ← Python dependencies
+├── requirements.txt                 ← Python dependencies
 ├── .gitignore
 ├── README.md
-└── Cluster_Summary.csv     ← Generated output (after running)
+└── Cluster_Summary.csv              ← Generated output (after running)
 ```
 
 > **Note:** `Data.csv`, `kmeans_model.pkl`, and `scaler.pkl` are excluded from the repo via `.gitignore`. Download the dataset from Kaggle and run the notebook to regenerate them.
